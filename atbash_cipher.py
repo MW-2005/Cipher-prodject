@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Mya W
+# date: 7/29/21
 
 # difficulty: easy
 
@@ -29,7 +29,7 @@
 #
 #     Encoding test gives gvhg
 #     Decoding gvhg gives test
-#     Decoding gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt gives thequickbrownfoxjumpsoverthelazydog
+#     Decoding gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt gives the quick brown fox jumps over the lazy dog
 #
 #
 # Program Requirements:
@@ -43,3 +43,31 @@
 #   2 - Remember that lists can be built up, meaning it may be useful to start with an empty list.
 #
 # WRITE DOWN THE STEPS BEFORE ATTEMPTING THE PROGRAM
+
+# step 1
+
+normal =  'abcdefghijklmnopqrstuvwxyz.,!?\' ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+cipher =  'zyxwvutsrqponmlkjihgfedcba.,!?\' ZYXWVUTSRQPONMLKJIHGFEDCBA'
+
+# step 2
+norm_text = input('Enter your text: ')
+cipher_text = ''
+
+for letter in norm_text: # step 3 part a 
+
+    # step 3 part b --> find the letter's position in the alphabet (plain)
+    position = normal.find(letter)
+
+    # step 3 part c --> using the position, retrieve the cipher letter
+    # get the letter at position from the Cipher
+
+    new_letter = cipher[position]
+
+    # step 4 add the new letter to cipher_text
+    cipher_text = cipher_text + new_letter
+
+
+
+
+
+print(cipher_text)
