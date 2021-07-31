@@ -67,7 +67,4 @@ for letter in norm_text: # step 3 part a
     cipher_text = cipher_text + new_letter
 
 
-
-
-
 print(cipher_text)

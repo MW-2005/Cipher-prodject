@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Mya Walker
+# date: 7/30/21
 
 # difficulty: medium
 
@@ -41,4 +41,19 @@
 #   3 - Print the result to the user.
 #
 # WRITE CODE BELOW #
+
+
+
+plain =  'abcdefghijklmnopqrstuvwxyz.,!?\' ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+Caeser = 'abcdefghijklmnopqrstuvwxyz.,!?\' ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+num = input('enter a number key: ')
+plain_text = input('Enter your text: ')
+Caesar_c = ''
+
+for letter in plain_text: (-num)
+    
+    position = plain.find(letter)
+
+    
 

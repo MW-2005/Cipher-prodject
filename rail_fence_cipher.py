@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Mya Walker
+# date:  7/30/21
 
 # difficulty: hard
 
